@@ -9,6 +9,17 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = products;
+  product = 'Soap';
+
+
+  share() {
+    window.alert('The product has been shared!');
+  }
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
 
   share() {
     window.alert('The product has been shared!');
